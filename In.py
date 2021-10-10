@@ -5,7 +5,7 @@ import requests
 client=amino
 email=input("Email: ")
 password=input("Password: ")
-client.login(email=email,password=password)
+client(email=email,password=password)
 
 print("logged in")
 
