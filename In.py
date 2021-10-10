@@ -2,7 +2,7 @@ import amino
 import time
 import requests
 
-client=amino.Client()
+client=amino
 email=input("Email: ")
 password=input("Password: ")
 client.login(email=email,password=password)
